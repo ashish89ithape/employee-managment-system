@@ -1,0 +1,23 @@
+{
+  "name": "employee-managment-system",
+  "version": "1.0.0",
+  "description": "Employee Management System built with TypeScript",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "employee",
+    "management",
+    "system"
+  ],
+  "author": "Ashish",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
