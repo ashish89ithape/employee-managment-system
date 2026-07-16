@@ -1,13 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.HRDepartment = exports.Department = void 0;
-class Department {
+export class Department {
     constructor(name) {
         this.name = name;
     }
 }
-exports.Department = Department;
-class HRDepartment extends Department {
+export class HRDepartment extends Department {
     constructor() {
         super(...arguments);
         this.employees = [];
@@ -19,5 +15,4 @@ class HRDepartment extends Department {
         return this.employees;
     }
 }
-exports.HRDepartment = HRDepartment;
 //# sourceMappingURL=Department.js.map

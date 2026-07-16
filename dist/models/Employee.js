@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Employee = void 0;
-class Employee {
+export class Employee {
     constructor(id, name, role, status, age) {
         this.id = id;
         this.name = name;
@@ -13,6 +10,5 @@ class Employee {
         return `${this.name}, (${this.role}) - ${this.status}`;
     }
 }
-exports.Employee = Employee;
 Employee.companyName = 'Neo';
 //# sourceMappingURL=Employee.js.map
