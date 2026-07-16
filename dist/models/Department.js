@@ -15,4 +15,3 @@ export class HRDepartment extends Department {
         return this.employees;
     }
 }
-//# sourceMappingURL=Department.js.map

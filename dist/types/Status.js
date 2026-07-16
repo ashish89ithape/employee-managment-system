@@ -4,4 +4,3 @@ export var Status;
     Status["Inactive"] = "INACTIVE";
     Status["Suspended"] = "SUSPENDED";
 })(Status || (Status = {}));
-//# sourceMappingURL=Status.js.map

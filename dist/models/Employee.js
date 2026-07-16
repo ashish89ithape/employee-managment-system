@@ -11,4 +11,3 @@ export class Employee {
     }
 }
 Employee.companyName = 'Neo';
-//# sourceMappingURL=Employee.js.map
